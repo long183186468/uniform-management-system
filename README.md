@@ -66,6 +66,13 @@ uniform-management-system/
 └── README.md          # 项目说明
 ```
 
+## 详细文档
+
+- [环境配置指南](docs/环境配置指南.md)：包含开发环境与生产环境的详细配置步骤
+- [数据库设计](docs/4-数据库设计/mongodb_schema.md)：MongoDB数据模型设计
+- [功能模块设计](docs/3-功能模块设计/README.md)：系统核心功能模块说明
+- [技术方案](docs/5-技术方案/README.md)：关键技术实现方案
+
 ## 特点优势
 
 1. 二维码追溯技术，确保校服信息公开透明
