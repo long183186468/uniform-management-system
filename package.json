@@ -1,0 +1,24 @@
+{
+  "name": "uniform-management-system",
+  "version": "1.0.0",
+  "description": "校服管理系统",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "npm run test:server && npm run init-test-data && npm run test:client",
+    "test:server": "mocha tests/server/**/*.js --timeout 10000",
+    "test:client": "mocha tests/client/**/*.js --timeout 10000",
+    "init-test-data": "node init_test_data.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.20",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "axios": "^1.8.4",
+    "chai": "^4.5.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0"
+  }
+}
